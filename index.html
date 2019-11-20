@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        #header {
+            /* background: url(https://static-images.objects-us-east-1.dream.io/cat-sleep.gif) no-repeat center center; */
+            background: url(https://images.unsplash.com/photo-1516750105099-4b8a83e217ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80) no-repeat center;
+            background-size: cover;
+            color: #fff; 
+            font: 15px 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+            margin: 0;
+            height: 800px;
+        }
+
+        .h1Header {
+            text-align: center; 
+            margin-top: 200px;
+            padding: auto;
+        }
+
+        #gallery {
+            margin-top: 20px;
+        }
+
+        .fas {
+            width: 20px;
+        }
+    </style>
+
+    <!-------------------- awsomefont ---------------->
+
+    <script src="https://kit.fontawesome.com/57f2bee72c.js" crossorigin="anonymous"></script>    
+
+
+    <!----------------- Bootstrap link ----------------->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+<body>
+
+<!-- -----------------------Navbar --------------------->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <!-- Image and text -->
+            <a class="navbar-brand" href="#">
+                    <i class="fas fa-cat"></i>
+                    Cat's Shelter
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+              
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Home </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#gallery">Adoption</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Info
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#footer">Contact</a>
+                        <a class="dropdown-item" href="#footer">Address</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                </ul>
+                  <div class="form-inline my-2 my-lg-0" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fas fa-user"></i> Sign in </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fas fa-user-plus"></i> Sign up</a>
+                    </li>
+                  </ul>
+                  </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ----------------- Jumbotron ----------------->
+
+    <section id="header" class="jumbotron text-center">
+        <div class="h1Header">
+            <h1 class="display-4">WATING FOR YOU...</h1>
+            <p class="lead">“A happy arrangement: many people prefer cats to other people, and many cats prefer people to other cats.” – Mason Cooley</p>
+        </div>
+    </section>
+
+<!-------------------- Gallery ---------------------->
+
+    <section id="gallery">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4 my-2">
+                  <div class="card">
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1557246565-8a3d3ab5d7f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">MIKE</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis enim excepturi cumque obcaecati illo reiciendis alias voluptates nulla sequi explicabo eligendi quisquam ut consectetur harum inventore, consequuntur voluptatibus beatae?</p>
+                      <a href="#" class="btn btn-outline-success btn-sm">Information</a>
+                      <a href="#" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 my-2">
+                  <div class="card">
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">FELICITY</h5>
+                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis ducimus a deleniti, consequatur esse facilis itaque dolor molestias in. Fuga sapiente rerum repellat ad iusto accusantium alias nesciunt quibusdam tempora?</p>
+                      <a href="#" class="btn btn-outline-success btn-sm">Information</a>
+                      <a href="#" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 my-2">
+                  <div class="card">
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1488740304459-45c4277e7daf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">STEWY</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem deserunt eius, deleniti aspernatur delectus dicta! Fugiat aperiam recusandae, quae quia saepe exercitationem excepturi incidunt repellat tempora facilis placeat vitae fuga!</p>
+                      <a href="#" class="btn btn-outline-success btn-sm">Information</a>
+                      <a href="#" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                    <div class="col-md-4 my-2">
+                      <div class="card">
+                        <img class="card-img-top" src="https://images.unsplash.com/photo-1527416876370-fb74d128c3dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+                        <div class="card-body">
+                          <h5 class="card-title">SOPHY & JASPER</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repellendus atque voluptas, alias ad unde facere dolore in quos fuga! Quisquam accusantium optio a culpa impedit voluptatibus dicta debitis doloribus.</p>
+                          <a href="#" class="btn btn-outline-success btn-sm">Information</a>
+                          <a href="#" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 my-2">
+                      <div class="card">
+                        <img class="card-img-top" src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+                        <div class="card-body">
+                          <h5 class="card-title">DONATELO</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur odio aperiam aliquid velit rem. Asperiores harum quia quaerat nesciunt rerum earum molestias aliquam veniam nam? Blanditiis neque expedita ratione illo?</p>
+                          <a href="#" class="btn btn-outline-success btn-sm">Information</a>
+                          <a href="#" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 my-2">
+                      <div class="card">
+                        <img class="card-img-top" src="https://images.unsplash.com/photo-1489084917528-a57e68a79a1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+                        <div class="card-body">
+                          <h5 class="card-title">BART</h5>
+                          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet maiores, excepturi a ex minus perspiciatis. Similique animi odit molestiae repellat qui labore tempora soluta expedita, iusto dolores harum eligendi dolorem.</p>
+                          <a href="#" class="btn btn-outline-success btn-sm">Information</a>
+                          <a href="#" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </section>
+
+          <!-- --------------Footer------------------------- -->
+
+          <footer class="container py-5" id="footer">
+                <div class="row">
+                  <div class="col-12 col-md">
+                    <i class="fas fa-cat" width="34"> The Cat Shelter</i>
+                    <small class="d-block mb-3 text-muted">&copy; 2017-2019</small>
+                  </div>
+                  <div class="col-6 col-md">
+                        <h5>The Cat shelter, Inc.</h5>
+                        <address>
+                            03180 Monteagudo St, 90 <br>
+                            Alicante, Spain <br>
+                            <a href="mailto:#"><i class="fas fa-envelope-square"></i>the-cat-shelter@org.com</a><br>
+                            <a href="tel:#"><i class="fas fa-phone"></i>(0034) 682-000-000</a>
+                        </address>
+                        <!-- <ul class="list-unstyled text-small">
+                          <li><a class="text-muted" href="#">Business</a></li>
+                          <li><a class="text-muted" href="#">Education</a></li>
+                          <li><a class="text-muted" href="#">Government</a></li>
+                          <li><a class="text-muted" href="#">Gaming</a></li>
+                        </ul> -->
+                    </div>
+                  <div class="col-6 col-md">
+                    <h5>Features</h5>
+                    <ul class="list-unstyled text-small">
+                      <li><a class="text-muted" href="#">Cool stuff</a></li>
+                      <li><a class="text-muted" href="#">Random feature</a></li>
+                      <li><a class="text-muted" href="#">Team feature</a></li>
+                      <li><a class="text-muted" href="#">Another one</a></li>
+                      <li><a class="text-muted" href="#">Last time</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6 col-md">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled text-small">
+                      <li><a class="text-muted" href="#">Resource</a></li>
+                      <li><a class="text-muted" href="#">Resource name</a></li>
+                      <li><a class="text-muted" href="#">Another resource</a></li>
+                      <li><a class="text-muted" href="#">Final resource</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6 col-md">
+                    <h5>About</h5>
+                    <ul class="list-unstyled text-small">
+                      <li><a class="text-muted" href="#">Team</a></li>
+                      <li><a class="text-muted" href="#">Locations</a></li>
+                      <li><a class="text-muted" href="#">Privacy</a></li>
+                      <li><a class="text-muted" href="#">Terms</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </footer>
+
+      <!-- ----------------- Scripts ----------------------- -->
+                
+              <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+              <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+    
+</body>
+</html>
